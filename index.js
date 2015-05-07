@@ -2,7 +2,7 @@
 
 module.exports = function hasChildSelector(selector) {
   if (typeof selector != 'string') {
-    throw new TypeError('has-attribute-selector expects a string');
+    throw new TypeError('has-child-selector expects a string');
   }
 
   return />/.test(selector);
