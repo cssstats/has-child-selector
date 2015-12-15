@@ -1,31 +1,24 @@
 {
   "name": "has-child-selector",
   "description": "Check if a selector string has a child selector.",
-  "author": "John Otander",
+  "author": "John Otander <johnotander@gmail.com> (johnotander.com)",
   "version": "0.0.2",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "mocha test"
+    "test": "ava"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cssstats/has-child-selector.git"
-  },
+  "repository": "cssstats/has-child-selector",
   "keywords": [
     "css",
     "child",
     "selector"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cssstats/has-child-selector/issues"
-  },
-  "homepage": "https://github.com/cssstats/has-child-selector",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "ava": "^0.8.0"
   }
 }
