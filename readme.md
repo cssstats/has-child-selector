@@ -11,10 +11,10 @@ npm install --save has-child-selector
 ## Usage
 
 ```javascript
-var hasChildSelector = require('has-child-selector');
+var hasChildSelector = require('has-child-selector')
 
-hasChildSelector('ul > li');  // => true
-hasChildSelector('li + li');  // => false
+hasChildSelector('ul > li')  // => true
+hasChildSelector('li + li')  // => false
 ```
 
 ## License
